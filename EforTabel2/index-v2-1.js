@@ -10,7 +10,7 @@ const fs = require('fs');
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const TABEL_SHEET_ID = '1ed5l9Z1kJyQlGR5JdOhbicrYZREu77KJTAacRqzvkJ8'; // Табель
-const ACCESS_SHEET_ID = '1jMuUhA5jmlPDJyRXcgfmOHYU4lIcuIDl0Xd_VPBOsJs'; // Доступы
+const ACCESS_SHEET_ID = '1edfD6XdgPqxxLTBRRXrBWcbmPZeRQB7CDaLvk3vPrww'; // Доступы - таблица Доступ управляющих в бот табелей ЭФОР
 const ACCESS_SHEET_NAME = 'ПРАВА ДОСТУПА';
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
